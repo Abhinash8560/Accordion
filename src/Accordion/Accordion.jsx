@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import "./styles.css";
+import "./index.css";
 
 function Accordion({ items }) {
   const [openIndex, setOpenIndex] = useState();
@@ -34,3 +34,4 @@ function Accordion({ items }) {
 }
 
 export default Accordion;
+
